@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+body{
+    background-color: #f8f8f8;
+}
+.boxs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#store{
+    padding-top: 120px;
+}
+.box{
+    margin: 20px;
+    text-align: center;
+    background-color: #273036;
+    color: white;
+    width: 20%;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 17px #0000004a;
+}
+.t1{
+    background-color: #f8f8f8;
+    border-radius: 1rem 1rem 1rem 0;
+}
+.t1 img{
+    width: 80%;
+}
+.t2{
+    padding: 18px;
+}
+.t2 h1{
+    font-size: 28px;
+    padding: 6px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    padding-top: 28px;
+}
+.info span{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.info button{
+    background: none;
+    border: #f8f8f8 solid 2px;
+    padding: 6px 18px;
+    color: #f8f8f8;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: 0.4s ease;
+}
+.info button:hover{
+    background-color: #f8f8f8;
+    color: #273036;
+}
+nav{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding-top: 42px;
+}
+nav img{
+    width: 120px;
+    margin-right: 100px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #273036;
+    padding: 0 26px;
+}
+.a1{
+    background: none;
+    border: #273036 2px solid;
+    padding: 8px 32px;
+    font-size: 16px;
+    border-radius: 2rem;
+}
+.a2{
+    background-color: #273036;
+    border: 0;
+    color: #f8f8f8;
+    padding: 10px 28px;
+    font-size: 16px;
+    border-radius: 2rem;
+    margin-left: 10px;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.home .image img{
+    width: 582px;
+}
+.home .text{
+    display: flex;
+    align-items: center;
+}
+.home .text .icons ion-icon{
+    font-size: 25px;
+    margin: 5px 0;
+    background-color: #00000052;
+    padding: 8px;
+    color: #f8f8f8;
+    border-radius: 100%;
+    margin-right: 28px;
+}
+.home .text .txt{
+    line-height: 50px;
+}
+.text .txt h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.text .txt button{
+    background-color: #273036;
+    border: none;
+    color: #f8f8f8;
+    padding: 8px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+iframe{
+    border-radius: 1rem;
+}
+.title{
+    padding: 32px 0;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+#About .box{
+    background-color: #f8f8f8; 
+    color: #273036;
+    padding: 42px;
+    transition: 0.4s ease;
+}
+#About .box img{
+    width: 120px;
+}
+#About .box:hover{
+    border: #273036 2px solid;
+    transform: scale(1.1);
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 160px;
+}
+.contact .textt h1{
+    font-size: 52px;
+    padding: 2px 0;
+}
+.contact .inputs{
+    padding-top: 12px;
+}
+.contact .inputs input{
+    width: 100%;
+    padding: 8px 12px;
+    background: none;
+    border: #273036 2px solid;
+    border-radius: 2rem;
+    margin: 6px 0;
+    font-size: 16px;
+}
+.contact .inputs textarea{
+    width: 100%;
+    padding: 8px 12px;
+    background: none;
+    border: #273036 2px solid;
+    border-radius: 1rem;
+    margin: 6px 0;
+    font-size: 16px;
+}
+.contact .inputs button{
+    background: none;
+    font-size: 18px;
+    border: black 2px solid;
+    padding: 8px 32px;
+    border-radius: 8px;
+    width: 60%;
+    text-align: center;
+    transition: 0.4s ease;
+}
+.contact .inputs button:hover{
+    background-color: black;
+    color: white;
+}
+.contact .logoo img{
+    width: 500px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 160px;
+}
+footer .icons ion-icon{
+    background-color: #f8f8f847;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 100%;
+    margin: 12px 8px;
+}
+footer .ifoo h1{
+    padding: 4px 0;
+    font-size: 42px;
+}
